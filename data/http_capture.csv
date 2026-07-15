@@ -1,0 +1,11 @@
+no,timestamp,src_ip,dst_ip,method,host,uri,status_code,content_type,response_time_ms
+1,0.000000,192.168.1.10,93.184.216.34,GET,example.com,/,200,text/html,145.4
+2,0.928654,192.168.1.10,93.184.216.34,GET,example.com,/about,200,text/html,104.7
+3,1.364101,192.168.1.10,93.184.216.34,GET,example.com,/old-page,301,text/html,55.9
+4,1.923578,192.168.1.10,93.184.216.34,GET,example.com,/new-page,200,text/html,81.4
+5,2.996623,192.168.1.10,93.184.216.34,GET,example.com,/style.css,200,text/css,36.0
+6,3.744641,192.168.1.10,93.184.216.34,GET,example.com,/nicht-vorhanden,404,text/html,95.6
+7,4.485767,192.168.1.10,93.184.216.34,GET,api.example.com,/v1/status,200,application/json,114.8
+8,5.348262,192.168.1.10,93.184.216.34,GET,api.example.com,/v1/report,500,application/json,221.8
+9,6.444369,192.168.1.10,93.184.216.34,GET,example.com,/bilder/banner.jpg,200,image/jpeg,2184.0
+10,9.449169,192.168.1.10,93.184.216.34,GET,example.com,/kontakt,200,text/html,75.7
